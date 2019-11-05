@@ -9,7 +9,7 @@ You can find demo app here
 ## Install with Angular 8
 
 ```
-# Angular 8
+# Angular 6/7/8+
 npm install an-qrcode --save
 ```
 
@@ -51,8 +51,8 @@ here is sample code for generate qrcode
 | ------------- |-------------| -----|------------|
 | level | Number | 1    | QR ECC level (1, 2, 3, 4) |
 | qrvalue      | String | '' | Your String |
-| width      | Number | 256     | Width (any value) |
-| height      | Number | 256     | Height (any value) |
+| width      | Number | 200     | Width (any value) |
+| height      | Number | 200     | Height (any value) |
 
 
 ## License
