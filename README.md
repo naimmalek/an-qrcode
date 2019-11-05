@@ -6,7 +6,7 @@
 You can find demo app here 
 [github.com/naimmalek/an-qrcode-sample-app](https://naimmalek.github.io/an-qrcode-sample-app/).
 
-## Install with Angular 8
+## Installation
 
 ```
 # Angular 6/7/8+
