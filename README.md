@@ -1,6 +1,8 @@
 # an-qrcode
 `an-qrcode` is Angular9+ QR Code library to generate QR Codes in Angular 6/7/8/9+ app. Generate Qrcode in Angular9, lightweight library, Generate qrcode using angular
 
+[![npm version](https://badge.fury.io/js/an-qrcode.svg)](https://badge.fury.io/js/an-qrcode)
+
 ## Demo App
 
 You can find demo app here 
