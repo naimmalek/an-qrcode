@@ -17,7 +17,6 @@ export class AnQrcodeComponent implements OnInit {
 
   ngOnInit() {
     this.result = doqr(this.level, this.qrvalue, this.size, this.size);
-    console.log("this.result", this.result)
   }
 
   ngOnChanges(changes: SimpleChanges) {

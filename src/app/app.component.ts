@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { naim } from './n';
 
 
 @Component({
@@ -13,8 +12,6 @@ export class AppComponent {
   level = 1;
   qrvalue = 'test';
   constructor() {
-    let rr = naim();
-    console.log("rr", rr)
   }
 
   chagne() {
