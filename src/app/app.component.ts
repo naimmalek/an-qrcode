@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { naim } from './n';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'an-qrcode-demo';
+  title = 'NQRCode';
+  size = 200;
+  level = 1;
+  qrvalue = 'test';
+  constructor() {
+    let rr = naim();
+    console.log("rr", rr)
+  }
+
+  chagne() {
+
+    this.size = 210;
+    this.level = 4;
+    this.qrvalue = 'naim';
+
+  }
 }

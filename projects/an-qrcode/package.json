@@ -1,0 +1,51 @@
+{
+  "name": "an-qrcode",
+  "version": "1.0.5",
+  "author": {
+    "name": "Naim Malek <naimmalek786@gmail.com>",
+    "url": "https://naimmalek.github.io"
+  },
+  "description": "Angular6/7/8/9/10 QRCode generator",
+  "peerDependencies": {
+    "@angular/common": ">= 6.0.0 < 9.0.6",
+    "@angular/core": ">= 6.0.0 < 9.0.6"
+},
+  "scripts": {
+    "postinstall": "ngcc"
+  },
+  "main": "bundles/an-qrcode.umd.js",
+  "module": "fesm5/an-qrcode.js",
+  "license": "MIT",
+  "keywords": [
+    "an-qrcode",
+    "ng-qrcode",
+    "angular-qrcode",
+    "angular",
+    "angular6",
+    "angular7",
+    "angular8",
+    "angular9",
+    "angular10",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naimmalek/an-qrcode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/naimmalek/an-qrcode/issues"
+  },
+  "homepage": "https://github.com/naimmalek/an-qrcode#readme",
+  "es2015": "fesm2015/an-qrcode.js",
+  "esm5": "esm5/an-qrcode.js",
+  "esm2015": "esm2015/an-qrcode.js",
+  "fesm5": "fesm5/an-qrcode.js",
+  "fesm2015": "fesm2015/an-qrcode.js",
+  "typings": "an-qrcode.d.ts",
+  "metadata": "an-qrcode.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+}
+  
+}
