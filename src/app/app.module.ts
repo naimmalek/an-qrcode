@@ -1,10 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
+// import { DeviceDetectorService } from 'ngx-device-detector';
 import { AppComponent } from './app.component';
-import { AnQrcodeModule } from 'an-qrcode';
-
+import { AnQrcodeModule } from 'projects/an-qrcode/src/public-api';
+// import { AnQrcodeModule } from 'an-qrcode';
 
 @NgModule({
   declarations: [
@@ -12,7 +11,7 @@ import { AnQrcodeModule } from 'an-qrcode';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    // DeviceDetectorService.forRoot(),
     AnQrcodeModule
   ],
   providers: [],
