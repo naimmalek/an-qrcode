@@ -1,14 +1,14 @@
 {
   "name": "an-qrcode",
-  "version": "1.0.5",
+  "version": "1.1.1",
   "author": {
     "name": "Naim Malek <naimmalek786@gmail.com>",
     "url": "https://naimmalek.github.io"
   },
-  "description": "Angular6/7/8/9/10 QRCode generator",
+  "description": "Angular QRCode generator",
   "peerDependencies": {
-    "@angular/common": ">= 6.0.0 < 9.0.6",
-    "@angular/core": ">= 6.0.0 < 9.0.6"
+    "@angular/common": ">= 6.0.0 < 18.0.0",
+    "@angular/core": ">= 6.0.0 < 18.0.0"
 },
   "scripts": {
     "postinstall": "ngcc"
@@ -26,6 +26,13 @@
     "angular8",
     "angular9",
     "angular10",
+    "angular11",
+    "angular12",
+    "angular13",
+    "angular14",
+    "angular15",
+    "angular16",
+    "angular17",
     "typescript"
   ],
   "repository": {
