@@ -1,11 +1,12 @@
 # an-qrcode
+
 `an-qrcode` is simple angular library to generate QR Codes in Angular 6/7/8/9/10 app app with support for AOT and the Ivy compiler.
 
 [![npm version](https://badge.fury.io/js/an-qrcode.svg)](https://badge.fury.io/js/an-qrcode)
 
 ## Demo App
 
-You can find demo app here 
+You can find demo app here
 [github.com/naimmalek/an-qrcode-sample-app](https://naimmalek.github.io/an-qrcode-sample-app/).
 
 ## Installation
@@ -19,19 +20,19 @@ npm install an-qrcode --save
 
 ### Import the module and add it to your imports section in your main AppModule:
 
-```
+```js
 // Main Module File: app.module.ts
 import { AnQrcodeModule } from 'an-qrcode';
 
 @NgModule({
-declarations: [
-  AppComponent
-],
-imports: [
-  AnQrcodeModule
-],
-providers: [],
-bootstrap: [AppComponent]
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    AnQrcodeModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
 ```
@@ -42,10 +43,9 @@ export class AppModule { }
 
 here is sample code for generate qrcode
 
-```
+```html
 <qrcode [level]="1" [qrvalue]="'QR Code String'"></qrcode>
 ```
-
 
 ## Parameters
 
@@ -55,8 +55,8 @@ here is sample code for generate qrcode
 | qrvalue      | String | '' | Your String |
 | size      | Number | 200     | (Width/Height value) |
 
-
 ## License
+
 MIT License
 
 Copyright (c) 2019 - present [Naim Malek (naimmalek.github.io)](https://naimmalek.github.io/)

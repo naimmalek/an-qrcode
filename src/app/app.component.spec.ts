@@ -11,8 +11,8 @@ describe('AppComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it(`should have as title 'an-qrcode-demo'`, () => {
-    expect(component.title).toEqual('an-qrcode-demo');
+  it(`should have as title 'NQRCode'`, () => {
+    expect(component.title).toEqual('NQRCode');
   });
 
   it('should render title', () => {
